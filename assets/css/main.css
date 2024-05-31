@@ -155,7 +155,7 @@ input, select, textarea {
 	}
 
 	strong, b {
-		font-weight: 300;
+		font-weight: 500;
 		color: #666;
 	}
 
@@ -1790,6 +1790,13 @@ input, select, textarea {
 				margin: 0 auto;
 				width: auto;
 			}
+		
+		.image.pub {
+			width: 4.25em;
+			height: 5.5em;
+			float: left;
+			margin: 0 2em 2em 0;
+		}
 
 /* List */
 
@@ -1994,6 +2001,32 @@ input, select, textarea {
 			.item header h3 {
 				font-size: 1em;
 			}
+
+/* Publication things */
+
+.pubyear {
+	box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
+	margin-bottom: 40px;
+	background: #fff;
+}
+
+	.pubyear header {
+		margin: 0;
+		padding: 1em 0 1em 1em;
+		font-size: 0.8em;
+		text-align: left;
+	}
+
+		.pubyear header h2 {
+			font-weight: bold;
+		}
+		.pubyear header h3 {
+			font-size: 1em;
+		}
+
+.pubtitle {
+	text-align: left;
+}
 
 /* Icons */
 
