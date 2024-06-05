@@ -2002,6 +2002,39 @@ input, select, textarea {
 				font-size: 1em;
 			}
 
+/* cv things */
+
+
+.cv.entry {
+	box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
+	margin-bottom: 20px;
+	padding: 1em;
+	background: #fff;
+}
+
+.cv h2 {
+	font-weight: bold;
+	text-align: left;
+}
+
+.cv h3 {
+	text-align: left;
+	font-weight: bold;
+}
+.cv h4 {
+	text-align: left;
+	font-weight: bold;
+	font-size: .8em;
+}
+.cv h5 {
+	text-align: left;
+	font-size: .8em;
+}
+
+.cv ul {
+	text-align: left;
+}
+
 /* Publication things */
 
 .pubyear {
