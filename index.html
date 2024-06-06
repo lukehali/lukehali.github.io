@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+        <script src="https://kit.fontawesome.com/eb7c215d7a.js" crossorigin="anonymous"></script>
 	</head>
 	<body class="is-preload">
 
@@ -87,7 +88,7 @@
 
 							<div class="row">
 								<div class="col-4 col-12-mobile">
-									<article class="item">
+									<article class="portfolio item">
 										<a href="#" class="image fit"><img src="images/looking_at_phones.jpg" alt="" />
                                         <!-- <video width="300" height="500" preload="" playsinline="" muted="" loop="" autoplay=""> -->
                                             <!-- <source src="https://one-sec.app/assets/videos/one sec website animation-1.mov" type="video/mp4;codecs=hvc1"> -->
@@ -98,7 +99,7 @@
 											<h3>Smartphone Overuse Interventions</h3>
 										</header>
 									</article>
-									<article class="item">
+									<article class="portfolio item">
 										
                                         <a href="#" class="image fit"><img src="images/axem_headset.png" alt="" /></a>
 										<header>
@@ -106,14 +107,14 @@
 										</header>
 									</article>
 								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
+								<div class="col-4 col-12-mobile" >
+									<article class="portfolio item" onclick="displayPortfolioEntry('portfolio-walkingmeetings')">
 										<a href="#" class="image fit"><img src="images/walking_stick_button.png" alt="" /></a>
 										<header>
 											<h3>Technology-Supported Walking Meetings</h3>
 										</header>
 									</article>
-									<article class="item">
+									<article class="portfolio item">
 										<a href="#" class="image fit"><img src="images/mindpalace_header.webp" alt="" /></a>
 										<header>
 											<h3>Mindpalace</h3>
@@ -121,13 +122,13 @@
 									</article>
 								</div>
 								<div class="col-4 col-12-mobile">
-									<article class="item">
+									<article class="portfolio item">
 										<a href="#" class="image fit"><img src="images/standing_at_desk.png" alt="" /></a>
 										<header>
 											<h3>Robotic Standing Desks</h3>
 										</header>
 									</article>
-									<article class="item">
+									<article class="portfolio item">
                                         <a href="#" class="image fit"><img src="images/social_people.jpg" alt="" /></a>
 										<header>
 											<h3>The Social Journal</h3>
@@ -135,7 +136,44 @@
 									</article>
 								</div>
 							</div>
-
+                            <div class="row">
+                                <div class="col-12 col-12-mobile">
+                                    <article class="portfolio entry" id="portfolio-walkingmeetings">
+                                        <header>
+                                                <h2>
+                                                    <span>Technology-Supported Walking Meetings</span>
+                                                    <i class="fa-regular fa-circle-xmark" onclick="displayPortfolioEntry('portfolio-walkingmeetings')">
+                                                    </i>
+                                                </h2>
+                                                
+                                           
+                                            <p>
+                                                <strong>Project Partners:</strong> Luke Haliburton, Albrecht Schmidt, Natalia Bartłomiejczyk, Paweł W. Woźniak, Jasmin Niess
+                                            </p>
+                                            <p>
+                                                <strong>Published:</strong> CSCW '21, CHI '23
+                                            </p>
+                                            <p>
+                                                <strong>CSCW '21:</strong>
+                                                <a href="files/publications/Haliburton et al_2021_Charting the Path.pdf"><span class="icon solid fa-file"> PDF</span></a>
+                                                <a href="https://doi.org/10.1145/3476088"><span class="icon solid fa-file"> DOI</span></a>
+                                                <a href="https://www.youtube.com/watch?v=qlfm397lbGI"><span class="icon solid fa-file"> VIDEO</span></a>
+                                            </p>
+                                            <p>
+                                                <strong>CHI'23:</strong>
+                                                <a href="files/publications/Haliburton et al_2023_walking talking stick.pdf"><span class="icon solid fa-file"> PDF</span></a>
+                                                <a href="https://doi.org/10.1145/3544548.3580986"><span class="icon solid fa-file"> DOI</span></a>
+                                                <a href="https://www.youtube.com/watch?v=isCszWS2_ms"><span class="icon solid fa-file"> VIDEO</span></a>
+                                            </p>
+                                        </header>
+                                        
+                                        
+                                        <p><strong>Abstract:</strong> Traditional meetings involve extensive sitting, which negatively impacts the health of attendees. Understanding how technology can facilitate integrating physical activity into the workplace, such as in walking meetings, is vital to improving workplace wellbeing. However, while walking meetings offer a healthy alternative to sit-down meetings, they also pose practical challenges. In a series of mixed-method evaluations, we sought to understand the needs and opportunities for walking meetings and develop a prototype to support note-taking while walking. To this end, we first conducted an online questionnaire (N=91) and a series of interviews with early adopters (N=6) . Based on our findings, we created design fictions and elicited feedback through a second online questionnaire (N=80) and a second round of interviews with the early adopters. We identified barriers and developed design opportunities for technology-supported walking meetings. One major challenge we identified was note-taking while talking, so we developed a functional prototype in the form of a walking stick. We evaluated the Walking Talking Stick with users (N=60) who conducted meetings in an outdoor setting. We found that the prototype gives users the confidence to conduct more complex meetings on the move, increases task focus, and facilitates turn-taking.</p>
+    
+                                        <p><strong>Application:</strong> Our results have two major contributions. First, the knowledge generated from the initial investigation into barriers and opportunities provides a strong foundation to inform future designers. The findings can be used as a starting point to identify core problems and develop solutions. Second, through our prototype evaluation, we have demonstrated that technology can improve walking meeting effectiveness without reducing the experience. Our prototype could be deployed in real workplaces in the future to facilitate increased physical activity.</p>
+                                    </article>
+                                </div>
+                            </div>
 						</div>
 					</section>
 
@@ -711,7 +749,11 @@
                             </p>
 
 						</div>
+                     
 					</section>
+
+                    
+           
 				<!-- Contact -->
 					<section id="contact" class="four">
 						<div class="container">
@@ -720,9 +762,12 @@
 								<h2>Contact</h2>
 							</header>
 
-							<p>Please feel free to reach out!</p>
+							<p>
+                                If you're interested in chatting or collaborating, please feel free to reach out at:<br />
+                                haliburton.luke(at)gmail.com
+                            </p>
 
-							<form method="post" action="#">
+							<!-- <form method="post" action="#">
 								<div class="row">
 									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
 									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
@@ -733,7 +778,7 @@
 										<input type="submit" value="Send Message" />
 									</div>
 								</div>
-							</form>
+							</form> -->
 
 						</div>
 					</section>
@@ -758,6 +803,18 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+            <script>
+                function displayPortfolioEntry(id)
+                {
+                var el = document.getElementById(id)
+                if(el.style.display ==="none") {
+                    el.style.display = "block";
+                } else {
+                    el.style.display = "none";
+                }
+                }
+            </script>
+                
 
 	</body>
 </html>
