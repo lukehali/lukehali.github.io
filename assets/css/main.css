@@ -1990,6 +1990,7 @@ input, select, textarea {
 .portfolio.item {
 		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
 		margin-bottom: 40px;
+		cursor: pointer;
 	}
 
 	.portfolio.item header {
@@ -2017,17 +2018,28 @@ input, select, textarea {
 	display: none;
 }
 
+.portfolio.entry header h2 {
+	font-weight: bold;
+	display: flex;
+  	justify-content: space-between;
+}
+
+.portfolio.entry.links{
+	padding: 10em;
+}
 
 .portfolio p {
 	text-align: left;
 	margin:0;
 }
 
+
+
 .portfolio h2 {
 	font-weight: bold;
-	display: flex;
-  justify-content: space-between;
+	text-align: left;
 }
+
 
 .portfolio h4 {
 	text-align: left;
