@@ -2024,6 +2024,13 @@ input, select, textarea {
   	justify-content: space-between;
 }
 
+.portfolio.entry header h2>i {
+	font-weight: bold;
+	display: flex;
+  	justify-content: space-between;
+	font-size: .8em;
+}
+
 .portfolio.entry.links{
 	padding: 10em;
 }

@@ -92,7 +92,7 @@
                                         <header>
                                                 <h2>
                                                     <span>Technology-Supported Walking Meetings</span>
-                                                    <i class="fa-regular fa-circle-xmark" onclick="displayPortfolioEntry('portfolio-walkingmeetings')">
+                                                    <i class="fa-regular fa-x" onclick="displayPortfolioEntry('portfolio-walkingmeetings')">
                                                     </i>
                                                 </h2>
                                                 
@@ -130,7 +130,7 @@
                                         <header>
                                                 <h2>
                                                     <span>Evaluating Smartphone Overuse Interventions in Practice</span>
-                                                    <i class="fa-regular fa-circle-xmark" onclick="displayPortfolioEntry('portfolio-smartphoneoveruse')">
+                                                    <i class="fa-regular fa-x" onclick="displayPortfolioEntry('portfolio-smartphoneoveruse')">
                                                     </i>
                                                 </h2>
                                                 
@@ -157,7 +157,7 @@
                                         <header>
                                                 <h2>
                                                     <span>Designing Smart Autonomous Standing Desks</span>
-                                                    <i class="fa-regular fa-circle-xmark" onclick="displayPortfolioEntry('portfolio-standingdesks')">
+                                                    <i class="fa-regular fa-x" onclick="displayPortfolioEntry('portfolio-standingdesks')">
                                                     </i>
                                                 </h2>
                                                 
@@ -866,11 +866,11 @@
             <script>
                 function displayPortfolioEntry(id)
                 {
-                var el = document.getElementById(id)
-                if(el.style.display ==="none") {
-                    el.style.display = "block";
+                var entry = document.getElementById(id)
+                if(entry.style.display ==="none") {
+                    entry.style.display = "block";
                 } else {
-                    el.style.display = "none";
+                    entry.style.display = "none";
                 }
                 }
             </script>
