@@ -2299,6 +2299,15 @@ input, select, textarea {
 					#nav ul li a.active span:before {
 						color: #e27689;
 					}
+				#nav ul li a.port {
+					background: rgba(0, 0, 0, 0.15);
+					box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
+					color: #fff;
+				}
+
+					#nav ul li a.port span:before {
+						color: #e27689;
+					}
 
 /* Footer */
 
