@@ -2372,6 +2372,10 @@ input, select, textarea {
 				background-color: #81918E;
 				background-image: url("../../images/banner.bmp");
 			}
+				#main > section.one.standing {
+					background-color: inherit;
+					background-image: url("../../images/standing_at_desk.png");
+				}
 
 			#main > section.two {
 				background-color: #f5fafa;
