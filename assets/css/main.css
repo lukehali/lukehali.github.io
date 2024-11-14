@@ -1770,6 +1770,10 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 		}
+		.image.blog {
+			display: block;
+			width: 50%;
+		}
 
 		.image.featured {
 			display: block;
