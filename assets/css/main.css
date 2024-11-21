@@ -2276,12 +2276,13 @@ input, select, textarea {
 				-webkit-transition: none;
 				-ms-transition: none;
 				transition: none;
-				font-size: .8em;
 			}
 
 				#nav ul li a span {
 					position: relative;
 					display: block;
+					font-family: inherit;
+					font-weight: 100;
 					font-size: 0.8em;
 				}
 
@@ -2304,15 +2305,7 @@ input, select, textarea {
 					#nav ul li a.active span:before {
 						color: #e27689;
 					}
-				#nav ul li a.port {
-					background: rgba(0, 0, 0, 0.15);
-					box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
-					color: #fff;
-				}
-
-					#nav ul li a.port span:before {
-						color: #e27689;
-					}
+				
 
 /* Footer */
 
